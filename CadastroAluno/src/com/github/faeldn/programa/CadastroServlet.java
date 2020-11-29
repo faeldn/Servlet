@@ -25,11 +25,11 @@ public class CadastroServlet extends HttpServlet {
 		PrintWriter writer = resp.getWriter();
 		String email 	= req.getParameter("email");
 		String nome 	= req.getParameter("nome");
-		String matricula = req.getParameter("maticula");
+		String matricula = req.getParameter("matricula");
 		String curso 	= req.getParameter("curso");
 		String instituicao = req.getParameter("instituicao");
 		
-		writer.write ("Nome: " + nome + "Matricula: " + matricula + "Curso: " + curso + "Email: " + email + " Instituição: " + instituicao);
+		writer.write ("Nome: " + nome + "Matricula: " + matricula + "Curso: " + curso + "Email: " + email + " InstituiÃ§Ã£o: " + instituicao);
 		
 		writer.close();
 	}
